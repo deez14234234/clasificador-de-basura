@@ -1,0 +1,12 @@
+# Los modelos de la Pi si se versionan (el mas grande pesa 13,8 MB): asi el
+# paquete_pi queda listo para usar recien clonado. Se regeneran con
+# ml/destilar.py, ml/exportar.py y ml/preparar_pi.py.
+
+# Lo que genera el paquete al usarse en la Pi
+paquete_pi/.venv/
+paquete_pi/historial.csv
+paquete_pi/capturas/
+paquete_pi/bench.json
+
+__pycache__/
+*.py[cod]

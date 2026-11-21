@@ -1,0 +1,10 @@
+# Los scripts de la Raspberry Pi tienen que llegar con finales de linea LF
+# aunque el repo se clone o se edite en Windows.
+*.sh text eol=lf
+
+# Modelos y binarios: que git no intente convertir nada.
+*.pt binary
+*.onnx binary
+*.png binary
+*.jpg binary
+*.zip binary

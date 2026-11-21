@@ -1,0 +1,9 @@
+# Dependencias de pip para la Raspberry Pi 4 (Raspberry Pi OS de 64 bits).
+#
+# No se instalan a mano: lo hace instalar.sh, dentro de un entorno virtual.
+# OpenCV y numpy vienen de apt (python3-opencv, python3-numpy): el OpenCV de
+# apt trae soporte de ventanas, que opencv-python-headless no tiene.
+#
+# En 32 bits no hay paquetes de onnxruntime: usa el sistema de 64 bits.
+
+onnxruntime>=1.17        # en ARM64 instala la rueda precompilada

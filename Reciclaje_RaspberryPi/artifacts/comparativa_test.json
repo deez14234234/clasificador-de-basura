@@ -1,0 +1,32 @@
+{
+  "hilos": 4,
+  "split": "test",
+  "candidatos": [
+    {
+      "modelo": "efficientnet_lite0_224_int8",
+      "arch": "efficientnet_lite0",
+      "precision": "int8",
+      "img_size": 224,
+      "mb": 3.8,
+      "parametros": 3381256,
+      "acc": 0.965742251223491,
+      "macro_f1": 0.9633349160128438,
+      "color_acc": 0.9706362153344209,
+      "mediana_ms": 1.3967999984743074,
+      "p90_ms": 1.6066999960457906
+    },
+    {
+      "modelo": "mobilenetv4_conv_small_224_int8",
+      "arch": "mobilenetv4_conv_small",
+      "precision": "int8",
+      "img_size": 224,
+      "mb": 2.8,
+      "parametros": 2503272,
+      "acc": 0.932300163132137,
+      "macro_f1": 0.9279019438361413,
+      "color_acc": 0.9412724306688418,
+      "mediana_ms": 0.7746999908704311,
+      "p90_ms": 0.8571000071242452
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Reciclaje NTP",
+    "slug": "reciclaje-ntp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07090D",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reciclaje.ntp"
+    },
+    "android": {
+      "package": "com.reciclaje.ntp",
+      "adaptiveIcon": {
+        "backgroundColor": "#07090D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "La app usa la camara para fotografiar el residuo y decirte en que tacho va."
+        }
+      ],
+      "expo-image",
+      "expo-font"
+    ]
+  }
+}

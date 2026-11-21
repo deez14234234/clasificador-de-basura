@@ -1,0 +1,31 @@
+# Reglas comunes a los dos proyectos. Cada carpeta tiene ademas su propio
+# .gitignore con lo especifico (dataset, modelos, etc.).
+
+# Dependencias y entornos
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.expo/
+
+# Secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.jks
+*.keystore
+
+# Zips: el paquete de la Raspberry se publica como Release, no en el repo
+*.zip
+
+# Copias de trabajo y respaldos locales
+.claude/
+respaldo_*/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
